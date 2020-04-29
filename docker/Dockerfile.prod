@@ -1,0 +1,4 @@
+FROM rest_api_service:base
+
+COPY ./rest_api_service /app/rest_api_service
+CMD ["python", "-m", "rest_api_service.main"]
